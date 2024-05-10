@@ -1,0 +1,29 @@
+/*Ajustes generales */
+* {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+:root {
+  /* Azules */
+  --azul-principal: #3498db;
+  --azul-claro: #5da8e9;
+  --azul-oscuro: #1e6db5;
+
+  /* Verdes */
+  --verde-principal: #2ecc71;
+  --verde-claro: #55d48b;
+  --verde-oscuro: #27ae60;
+
+  /* Violetas */
+  --violeta-principal: #9b59b6;
+  --violeta-claro: #b573c1;
+  --violeta-oscuro: #8e44ad;
+
+  /* Gradientes */
+
+  --gradiente-A: rgba(0, 24, 119, 0.35);
+  --gradiente-B: rgba(0, 0, 0, 1);
+}

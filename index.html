@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desarrolladores Disponibles</title>
+    <link rel="shortcut icon" href="imagenes/ico.png" type="image/x-icon" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>TRABAJO INTEGRADOR CODO A CODO</h1>
+
+    <p class="bajada">
+      ¡Hola a todos! Este es el proyecto de nuestro grupo. La idea es una
+      especie de buscador de Dev's, en el cual cada uno tendra su caja de
+      presentaciòn y el usuario puede visitar el CV personalizado de cada uno, e
+      inclusive poder contactarse a traves del boton.
+    </p>
+
+    <h2 class="intro">Nuestros desarrolladores:</h2>
+
+    <div class="container">
+      <div class="developer">
+        <img src="imagenes/bobtoronja.jpg" alt="Bob esponja" />
+        <h2>Juampi Torrico</h2>
+        <p>Descripción breve.</p>
+        <a href="individuales/cv.html" target="_blank"
+          >Ver más sobre Nombre Desarrollador 1</a
+        >
+        <button class="contacto-boton" onclick="openForm()">
+          Ponte en contacto
+        </button>
+      </div>
+
+      <div class="developer">
+        <img src="imagenes/calamardo.jpg" alt="Calamardo" />
+        <h2>Larry Caberga</h2>
+        <p>Descripción breve.</p>
+        <a href="desarrollador2.html">Ver más sobre Nombre Desarrollador 2</a>
+        <button class="contacto-boton" onclick="openForm()">
+          Ponte en contacto
+        </button>
+      </div>
+
+      <div class="developer">
+        <img src="imagenes/patricio.jpg" alt="Patricio" />
+        <h2>Edinson Cavani</h2>
+        <p>Descripción breve.</p>
+        <a href="desarrollador3.html">Ver más sobre Nombre Desarrollador 3</a>
+        <button class="contacto-boton" onclick="openForm()">
+          Ponte en contacto
+        </button>
+      </div>
+
+      <div class="developer">
+        <img src="imagenes/Don_Cangrejo.jpg" alt="Don cangrejo" />
+        <h2>Pol Fernandez</h2>
+        <p>Descripción breve.</p>
+        <a href="desarrollador4.html">Ver más sobre Nombre Desarrollador 4</a>
+        <button class="contacto-boton" onclick="openForm()">
+          Ponte en contacto
+        </button>
+      </div>
+    </div>
+    <!-------------------------Separa del Formulario------------------------->
+    <div id="contactForm" class="formulario">
+      <form action="/submit_contact_form" class="form-container">
+        <h2>Contactar Desarrollador</h2>
+
+        <label for="name"><b>Nombre</b></label>
+        <input
+          type="text"
+          placeholder="Ingrese su nombre"
+          name="name"
+          required
+        />
+
+        <label for="email"><b>Correo</b></label>
+        <input
+          type="email"
+          placeholder="Ingrese su correo"
+          name="email"
+          required
+        />
+
+        <button type="submit" class="btn">Enviar</button>
+        <button type="button" class="btn cancel">Cerrar</button>
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+    <footer>
+      <p>Todos los derechos reservados.</p>
+    </footer>
+  </body>
+</html>
