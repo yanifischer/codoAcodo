@@ -200,16 +200,29 @@ img:hover{
     text-align: center;
 }
 
+footer {
+    height: 90px;
+    background-color: rgb(235, 164, 249);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
 @media all and (min-width: 600px) and (max-width: 1023px) {
   
 
     header, section, footer {
         width: 580px;
     }
-    
+
     header {
         height: 130px;
     }
+
+    footer {
+        height: 130px;
+    }
+    
 
     #marca {
         width: 250px;
@@ -296,6 +309,13 @@ img:hover{
             
     }
     
+    footer {
+        width: 98%;
+        height: auto;
+        position: relative;
+            
+    }
+
     #marca {
         width: 90%;
         height: auto;
